@@ -1,0 +1,5 @@
+---
+postgresql_version: 95
+postgresql_packages:
+  - name: "postgresql{{ postgresql_version }}-server"
+  - name: py36-psycopg2
