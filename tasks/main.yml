@@ -17,7 +17,6 @@
   command: service postgresql initdb
   args:
     creates: "/var/db/postgres/data{{ postgresql_version }}"
-    warn: False
 
 - name: configure pg_hba
   template:
